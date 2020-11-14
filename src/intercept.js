@@ -1,3 +1,6 @@
+const componentOverrideMapping = require('./componentOverrideMapping');
+const moduleOverridePlugin = require('./moduleOverrideWebpackPlugin');
+
 /**
  * Custom intercept file for the extension
  * By default you can only use target of @magento/pwa-buildpack.
@@ -16,4 +19,8 @@ module.exports = targets => {
      */
     flags[targets.name] = { esModules: true, cssModules: true };
   });
+
+    targets.of('@magento/pwa-buildpack').webpackCompiler.tap(compiler => {
+        new moduleOverridePlugin(componentOverrideMapping).apply(compiler);
+    })
 };
