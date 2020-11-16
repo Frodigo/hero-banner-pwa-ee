@@ -11,6 +11,10 @@
     position: relative;
 }
 
+.heroBlock .heroBlockImage {
+    margin: 0;
+}
+
 @media (min-width: 1024px) {
     .heroBlock {
         margin: 0 1.5rem;
@@ -38,14 +42,6 @@
     right: 0;
 }
 
-.heroBlockHeading {
-    color: var(--hero-color-white);
-    margin: 0;
-    font-size: var(--font-size-base-mobile);
-    font-weight: 700;
-    line-height: 28px;
-}
-
 .heroBlockAction {
     background-color: var(--hero-color-white);
     color: var(--hero-color-black);
@@ -53,6 +49,18 @@
     padding: 15px 30px;
     text-align: center;
     text-transform: uppercase;
+}
+
+.heroBlock .heroBlockAction {
+    text-decoration: none;
+}
+
+.heroBlockHeading {
+    color: var(--hero-color-white);
+    margin: 0;
+    font-size: var(--font-size-base-mobile);
+    font-weight: 700;
+    line-height: 28px;
 }
 
 .heroBlockAction:hover {
