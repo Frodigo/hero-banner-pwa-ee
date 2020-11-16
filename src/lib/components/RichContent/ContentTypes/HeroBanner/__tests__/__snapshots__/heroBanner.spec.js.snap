@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display hero banner on the page 1`] = `[Function]`;
+
+exports[`Display hero banner on the page with desktop image 1`] = `[Function]`;
+
+exports[`Display hero banner on the page with mobile image 1`] = `[Function]`;
