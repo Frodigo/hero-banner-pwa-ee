@@ -1,7 +1,79 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Display hero banner on the page 1`] = `[Function]`;
+exports[`Display hero banner on the page with desktop image 1`] = `
+<div
+  className=" hero-block"
+  style={
+    Object {
+      "border": "",
+      "borderColor": "",
+      "borderWidth": "",
+      "marginBottom": "0px",
+      "marginLeft": "0px",
+      "marginRight": "0px",
+      "marginTop": "0px",
+      "paddingBottom": "0px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "paddingTop": "0px",
+      "textAlign": "",
+    }
+  }
+>
+  <figure>
+    <img
+      alt="figure"
+      src="http://placehold.it/200x200"
+    />
+  </figure>
+  <section>
+    <h2>
+      Seasonal styles up to 40%
+    </h2>
+    <a
+      href="#"
+    >
+      Shop now!
+    </a>
+  </section>
+</div>
+`;
 
-exports[`Display hero banner on the page with desktop image 1`] = `[Function]`;
-
-exports[`Display hero banner on the page with mobile image 1`] = `[Function]`;
+exports[`Display hero banner on the page with mobile image 1`] = `
+<div
+  className=" hero-block"
+  style={
+    Object {
+      "border": "",
+      "borderColor": "",
+      "borderWidth": "",
+      "marginBottom": "0px",
+      "marginLeft": "0px",
+      "marginRight": "0px",
+      "marginTop": "0px",
+      "paddingBottom": "0px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "paddingTop": "0px",
+      "textAlign": "",
+    }
+  }
+>
+  <figure>
+    <img
+      alt="figure"
+      src="http://placehold.it/100x100"
+    />
+  </figure>
+  <section>
+    <h2>
+      Seasonal styles up to 40%
+    </h2>
+    <a
+      href="#"
+    >
+      Shop now!
+    </a>
+  </section>
+</div>
+`;

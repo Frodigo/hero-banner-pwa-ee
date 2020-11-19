@@ -1,7 +1,7 @@
 {
-  "name": "@marcinkwiatkowski/hero-banner-pagebuiler",
+  "name": "@marcinkwiatkowski/hero-banner-ee",
   "author": "Marcin Kwiatkowski <contact@frodigo.com>",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "src/index.js",
   "pwa-studio": {
     "targets": {
